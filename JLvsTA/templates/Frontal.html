@@ -1,0 +1,10 @@
+{% extends "Blog.html" %}
+
+{% block content %}
+
+  {% for p in blogs %}
+    {{ p.render()}}
+    <br><br>
+  {% endfor %}
+
+{% endblock %}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Justice League vs The Avengers - Sign Up</title>
+    <link rel="stylesheet" href="../css/all.css"                                                          />
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../css/bootstrap-theme.css"/>
+    
+    <link rel="stylesheet" href="../fonts/font-awesome.min.css"                                             />
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css"         />
+    <link rel="stylesheet" href="../css/bootstrap-image-gallery.min.css"         /> 
+    <link rel="stylesheet" href="../css/sign_up_css.css"         />   
+    
+
+  </head>
+
+  <body>
+  <div class="container">
+    <h2>Sign Up</h2> 
+    <div class="row">
+
+    <form method="POST" class="col-md-8 col-md-offset-2" role="form">
+
+      <div class="form-group row">
+        <div class="col-md-8">
+          <label for="exampleInputUsername1">Username</label>
+          <input type="text" class="form-control" id="exampleInputUsername1" name="username" value="{{username}}" placeholder="Enter Username">
+        </div>
+        <div class="col-md-3">
+          {{error_username}}          
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <div class="col-md-8">
+          <label for="exampleInputName1">Name</label>
+          <input type="text" class="form-control" id="exampleInputName1"  value="{{name}}" name="name" placeholder="Enter Name">
+        </div>
+
+      </div>
+
+      <div class="form-group row">
+        <div class="col-md-8">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+
+        <div class="col-md-3">
+          {{error_password}}         
+        </div>
+
+      </div>
+
+      <div class="form-group row">
+        <div class="col-md-8">
+          <label for="exampleInputPassword2">Verify Password</label>
+          <input type="password" name="verify" class="form-control" id="exampleInputPassword2" placeholder="Password">
+        </div>
+
+        <div class="col-md-3">
+         {{error_verify}}         
+        </div>
+
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+  </div>   
+
+
+
+  </div>  
+
+
+
+
+  </body>
+
+</html>

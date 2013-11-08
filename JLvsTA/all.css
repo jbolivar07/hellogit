@@ -1,0 +1,445 @@
+
+@font-face { font-family: "CrimeFighter BB"; src: url('../fonts/CRIMFBRG.TTF') format('truetype'); }
+@font-face { font-family: "KomikaTitle"; src: url('../fonts/KomikaTitle.TTF') format('truetype'); } 
+@font-face { font-family: "KomikaTitle-Axis"; src: url('../fonts/KomikaTitle-Axis.TTF') format('truetype'); } 
+@font-face { font-family: "KomikaTitle-Kaps"; src: url('../fonts/KomikaTitle-Kaps.TTF') format('truetype'); } 
+@font-face { font-family: "KomikaTitle-Paint"; src: url('../fonts/KomikaTitle-Paint.TTF') format('truetype'); } 
+@font-face { font-family: "KomikaTitle-Wide"; src: url('../fonts/KomikaTitle-Wide.TTF') format('truetype'); } 
+@font-face { font-family: "Comic_Book"; src: url('../fonts/Comic_Book.TTF') format('truetype'); } 
+
+
+
+
+title,h1{
+	display: none;
+}
+
+
+#Nombre{
+
+font-family:"Comic_Book" !important;
+}
+
+
+#historia {
+
+	/*background: url('JusticeLeagueBackground.png') no-repeat !important; */
+    font: 13px/18px "KomikaTitle";
+}
+
+
+body{
+
+	
+	font-family: Arial,"KomikaTitle-Paint","KomikaTitle";
+}
+
+
+#logo{
+
+	width:50%;
+	height: auto;
+	margin-right:50px !important;
+
+	
+	
+}
+
+.navbar-brand{
+
+	width:60%;
+	padding:0;
+    margin-left:-5em;
+}
+
+
+.navbar-header{
+
+
+	padding:1%;
+	width:20% !important;
+
+}
+
+nav a{
+
+	color:white !important;
+	font-weight: bold;
+	
+	
+}
+
+.navbar-header{
+
+
+	padding-top:0px !important;
+	padding-bottom:0px !important;
+	width:20% !important;
+	margin-left:-5em;
+	margin-right:-50px !important;
+}
+
+#signup{
+
+
+	padding-top:7%;
+	padding-bottom:7%;
+}
+
+#imagen{
+
+	position:absolute;
+	height:100%;
+	width:100%;
+	top:-50px;
+}
+
+
+
+
+.navbar-inner,#nav-main,.navbar-inner .container,.navbar{
+
+    background: rgba(0,0,0,1) !important;
+
+    }
+
+
+
+.container:first-child {
+
+
+	width:100% !important;
+
+
+
+}
+
+.black{
+
+	background-color:black;
+}
+
+
+.carousel , .item{
+
+	background: rgba(0,0,0,0.3) !important; 
+}
+
+.carousel-inner{
+
+	background-color: rgba(0,0,0,0.5) !important;
+}
+	
+
+#carousel-example-generic,.carousel,.slide{
+
+	background-size:contain;
+	background-image: url('../img/JusticeLeagueBackground.png') !important;
+
+
+}
+
+footer{
+
+	margin-top: 10% !important;
+	background-color: black;
+}
+
+footer p{
+
+	color:white;
+}
+
+
+
+
+
+article p {
+
+	color:white !important;
+	text-align:justify;
+	text-justify:inter-word;
+
+}
+
+nav {
+
+border: none !important;
+	
+}
+
+
+
+p+button{
+
+	font-size: 1.5em  !important;
+	color: black;
+
+}
+
+#one{
+
+	width:100%;
+	background:black;
+}
+
+.black+.row{
+
+	background: url('../img/Sin nombre.png') !important;
+
+
+}
+
+body+div{
+
+	background: url('../img/partir_1.png') !important;
+	border:1px solid red;
+
+
+}
+
+.marketing h2{
+
+	color:white;
+}
+
+
+.brand{
+	background-color: white;
+}
+
+
+
+
+ul:first-child{
+
+	margin-left: 25em;
+}
+
+ul:first-child li{
+
+	padding-right: 2em;
+	padding-left: 2em;
+}
+
+ul li a{
+
+/*color:rgb(63,134,196) !important;*/
+
+font-family: "KomikaTitle-Kaps";
+font-size: 1.5em;
+
+
+
+}
+
+
+
+#historia h2{
+
+	padding-top:10%;
+	margin-left: 1.2%;
+}
+
+#historia {
+
+	background-color: white;
+
+}
+
+#historia p {
+
+	color:black !important;
+}
+
+#Nombre{
+
+
+font-family: "KomikaTitle-Paint";
+font-size: 5em;
+
+}
+
+#historia{
+
+	margin-bottom:10em !important;
+}
+
+
+
+h2{
+
+	border-bottom:0.05em solid black;
+	text-align: center;
+	font-size: 5em !important;
+	font-family: "KomikaTitle-Kaps" !important;
+	font-weight: bold;
+	border-bottom-width:80% !important;
+
+}
+
+
+#links a{
+
+	margin-bottom:0em;
+	z-index: 1000 !important;
+
+}
+
+#links a{
+
+	padding-right:4em;
+	padding-left:4em;
+	padding-top:10em !important;
+}
+
+
+#links{
+
+	margin-top:10em;
+
+}
+
+#links a:first-child{
+
+	padding-left:0;
+}
+
+
+
+.foto{
+
+
+	margin-top:-20em;
+}
+
+footer p{
+
+	text-align: center;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+
+
+#two{
+
+	color:blue;
+
+
+}
+
+#historia div:first-child {
+
+	width:100%;
+}
+
+#historia section {
+
+	background-color: black;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border-radius: 2em;
+}
+
+
+
+
+#historia+.row button{
+
+	margin-left: 5%;
+}
+
+
+
+#historia p{
+
+	background-color: white;
+	border-radius: 1em;
+	padding:1% !important;
+}
+
+
+#historia p:nth-child(2){
+
+
+	padding-bottom: 4% !important;
+}
+
+
+#historia{
+
+	width:100% !important;
+	height: 150% !important;
+
+
+}
+
+.wrapper-inner{
+
+	border:0.1em solid white;
+	border-radius:2em; 
+}
+
+.wrapper-outter{
+
+	border:0.1em solid black;
+	border-radius:2em; 
+}
+
+.col-md-offset-4 button {
+
+	margin-left: 4%;
+	margin-top: -100px;
+	position: absolute;
+}
+
+#carousel-example-generic-2 .item{
+
+	height: 630px;
+	padding-top: 20%;
+	padding-left: -10% !important;
+
+
+}
+
+#carousel-example-generic-2 img{
+	height:80%;
+
+}
+
+#characters{
+
+	background-size:contain;
+	background-image: url('../img/JusticeLeagueBackground.png') !important;
+}
+
+#foto{
+
+	margin-top: -64%;
+}
+
+#characters{
+
+	margin-top: 10%;
+}
+
+#characters #carousel-example-generic{
+
+	margin-left: 5%;
+
+}
+
+#characters #carousel-example-generic-2{
+	margin-left: 5%;
+}
+
+footer{
+
+	
+}
+
+.carousel-caption {
+
+	font: 2.5em "KomikaTitle";
+}
